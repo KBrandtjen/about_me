@@ -1,12 +1,18 @@
-html {background-color: #85CA92}
+html {background-color: #343540}
 
 
-h1 {border-style: double;
-    padding: 10px;
-    background-color: #334035;
+h1 {color: #CCC5BF;
+    text-shadow: 3px 3px 3px black;
     text-align: center;
     text-decoration: underline;
     font-family: Comic Sans MS;
   }
 
-p { }
+img {border-radius: 20px;
+        display: block;
+        margin: 0 auto;
+        width:250px;
+        height:auto;
+  }
+
+p {}
