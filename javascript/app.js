@@ -65,18 +65,20 @@ if (answer4.toLowerCase() === 'yes' || answer4.toLowerCase() === 'y') {
 }
 partFour();
 
-
+function partFive(){
 var answer5 = prompt('Have I have been coding for 3 years?');
 console.log(answer5);
 
 if (answer5.toLowerCase() === 'no' || answer5.toLowerCase() === 'n') {
   alert('I have not, but you wouldn\'t know it from this website!');
-  var score5 = 1;
+  total++;
 }
   else {
   alert('Sorry ' + userName + ', I have not but thanks for the vote of confidence!');
-  var score5 = 0;
+};
 }
+
+partFive();
 
 
 var magicNumber = 44;
