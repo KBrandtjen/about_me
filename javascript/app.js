@@ -36,17 +36,20 @@ if (answer2.toLowerCase() === 'no' || answer2.toLowerCase() === 'n') {
 
 partTwo();
 
+function partThree(){
 var answer3 = prompt('Can I identify the species of every shrub and tree outside right now?');
 console.log(answer3);
 
 if (answer3.toLowerCase() === 'yes' || answer3.toLowerCase() === 'y') {
   alert('Indeed! I love plants!');
-  var score3 = 1;
+  total++;
 }
   else {
   alert('Incorrect, Acer saccharum, Fagus sylvatica, Quercus robur.......');
-  var score3 = 0;
+};
 }
+
+partThree();
 
 
 var answer4 = prompt('Is my favorite type of music Hip-Hop?');
