@@ -1,24 +1,25 @@
 "use strict";
 
-var userName = prompt('Hello! What is your name?')
-
+var userName = prompt('Hello! What is your name?');
+var total = 0;
 
 alert('Hello, ' + userName + '! I dont know you, but you\'re about to learn about me!')
 
-
+function partOne(){
 var answer1 = prompt('Do I have an adorable pitbull?')
 console.log(answer1);
 
 if (answer1.toLowerCase() === 'yes' || answer1.toLowerCase() === 'y') {
   alert('Correct ' + userName + '! If you want proof, I\'d be happy to show you!');
-  var score1 = 1;
+  total++;
 }  else if (answer1.toLowerCase() === 'no' || answer1.toLowerCase() === 'n') {
   alert('Sorry ' + userName + '! I do and I have 1000\'s of photos to prove it!');
-  var score1 = 0;
 }
   else { alert('Try typing yes or no ( y/n ).');
+};
 }
 
+partOne();
 
 var answer2 = prompt('Can I do a flawless Homer Simpson impersonation?');
 console.log(answer2);
@@ -124,7 +125,6 @@ while (guesses < 7) {
 alert('Want to know who else is in my top 7? Kendrick Lamar, Outkast, Schoolboy Q, Chance the Rapper, Nas, Kid Cudi, and Anderson .Paak. Give them a listen!');
 
 
-var total = score1 + score2 + score3 + score4 + score5 + score6 + score7;
 
 if (total > 3) {
   alert('Great job ' + userName +'! You got ' + total +' out of 7! Now that you know me, wanna hang out?');
