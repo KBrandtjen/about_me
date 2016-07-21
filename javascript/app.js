@@ -51,18 +51,19 @@ if (answer3.toLowerCase() === 'yes' || answer3.toLowerCase() === 'y') {
 
 partThree();
 
-
+function partFour(){
 var answer4 = prompt('Is my favorite type of music Hip-Hop?');
 console.log(answer4);
 
 if (answer4.toLowerCase() === 'yes' || answer4.toLowerCase() === 'y') {
   alert('For shizzle, ' + userName + '!');
-  var score4 = 1;
+  total++;
 }
   else {
   alert('Chickity check yourself ' + userName +'! You\'re about to wreck yourself!');
-  var score4 = 0;
+};
 }
+partFour();
 
 
 var answer5 = prompt('Have I have been coding for 3 years?');
