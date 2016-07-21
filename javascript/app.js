@@ -136,9 +136,12 @@ alert('Want to know who else is in my top 7? Kendrick Lamar, Outkast, Schoolboy 
 }
 partSeven();
 
-
+function partEight(){
 if (total > 3) {
   alert('Great job ' + userName +'! You got ' + total +' out of 7! Now that you know me, wanna hang out?');
 } else {
     alert('Sorry ' + userName +', You only got ' + total +' out of 7. Looks like we can\'t be friends.')
   };
+}
+
+partEight();
