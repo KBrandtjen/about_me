@@ -21,18 +21,20 @@ if (answer1.toLowerCase() === 'yes' || answer1.toLowerCase() === 'y') {
 
 partOne();
 
+function partTwo(){
 var answer2 = prompt('Can I do a flawless Homer Simpson impersonation?');
 console.log(answer2);
 
 if (answer2.toLowerCase() === 'no' || answer2.toLowerCase() === 'n') {
   alert('Correct ' + userName + '! But my Bart isn\'t too bad.');
-  var score2 = 1;
+  total++;
 }
   else {
   alert('D\'OH!! Sorry ' + userName + '. I can\'t but I enjoy the occasional Duff.');
-  score2 = 0;
+};
 }
 
+partTwo();
 
 var answer3 = prompt('Can I identify the species of every shrub and tree outside right now?');
 console.log(answer3);
