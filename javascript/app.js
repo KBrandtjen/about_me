@@ -99,6 +99,9 @@ if (isNaN(answer6)) {
   i = 5;
   total++;
 };
+if ((i === 4) && (magicNumber !== answer6)) {
+  alert('Sorry '+ userName + '! You\'ve used up all your guesses. It was 44, obviously!');
+};
 };
 }
 
