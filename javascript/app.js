@@ -80,7 +80,7 @@ if (answer5.toLowerCase() === 'no' || answer5.toLowerCase() === 'n') {
 
 partFive();
 
-
+function partSix(){
 var magicNumber = 44;
 
 var i = 0
@@ -92,16 +92,17 @@ if (isNaN(answer6)) {
   alert ('Please enter a number!');
 } else if (answer6 > magicNumber) {
   alert('Sorry, guess a lower number!');
-  var score6 = 0;
 } else if (answer6 < magicNumber) {
   alert('Try again, guess a larger number!');
-  var score6 = 0;
 } else {
   alert('Great guess! You got it!');
   i = 5;
-  var score6 = 1;
+  total++;
+};
 };
 }
+
+partSix();
 
 
 var favoriteRap = ['kendrick lamar', 'schoolboy q', 'outkast', 'nas', 'kid cudi', 'chance the rapper', 'anderson paak'];
