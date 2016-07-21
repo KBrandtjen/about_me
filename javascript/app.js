@@ -104,6 +104,7 @@ if (isNaN(answer6)) {
 
 partSix();
 
+function partSeven(){
 
 var favoriteRap = ['kendrick lamar', 'schoolboy q', 'outkast', 'nas', 'kid cudi', 'chance the rapper', 'anderson paak'];
 
@@ -124,15 +125,16 @@ while (guesses < 7) {
   };
   if (comparison === true) {
     alert('Congrats!');
-    var score7 = 1;
+    total++;
 } else { alert('Nope! Try Again.');
-    var score7 = 0;
 };
   guesses++;
 };
 
 alert('Want to know who else is in my top 7? Kendrick Lamar, Outkast, Schoolboy Q, Chance the Rapper, Nas, Kid Cudi, and Anderson .Paak. Give them a listen!');
 
+}
+partSeven();
 
 
 if (total > 3) {
